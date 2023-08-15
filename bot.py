@@ -57,4 +57,4 @@ def get_text_messages(message):
         bot.send_message(message.from_user.id, "Не понял")
 
 
-bot.infinity_polling(restart_on_change=True)
+bot.infinity_polling()
